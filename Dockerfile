@@ -1,4 +1,4 @@
-FROM n8nio/n8n:1.119.7
+FROM n8nio/n8n:1.119
 
 # Instalar ffmpeg (necessário para áudio/vídeo no Telegram)
 USER root
