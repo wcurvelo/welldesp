@@ -1,6 +1,6 @@
-FROM n8nio/n8n:latest
+FROM n8nio/n8n:1.120.0
 
 # Instalar ffmpeg (necessário para áudio/vídeo no Telegram)
 USER root
-RUN apk update && apk add --no-cache ffmpeg
+RUN apk add --no-cache ffmpeg tzdata
 USER node
